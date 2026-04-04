@@ -17,42 +17,69 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am Jianyi Zhou (周健毅), an undergraduate student at Harbin Institute of Technology, Shenzhen. I am passionate about Computer Vision and Machine Learning, with particular interests in embodied AI and world models.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research focuses on developing intelligent systems that can perceive, understand, and interact with the physical world. I have worked on projects involving vision-language action models, tactile sensing technologies, and world model learning for robotic manipulation.
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.12*: &nbsp;🎉🎉 Awarded National Scholarship!
+- *2025.08*: &nbsp;🏆 Won First Prize in National College Student Operating System Competition
+- *2025.05*: &nbsp;🎉 Nominated for Outstanding Winner (Top 1.4% globally) in MCM/ICM as Team Leader 
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Research Project</div><img src='images/INFUSE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[INFUSE: Backdoor Attacks in Vision-Language-Action Models](https://jianyi2004.github.io/infuse-vla-backdoor/)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Jianyi Zhou**, Yujie Wei, Ruichen Zhen, Bo Zhao, Xiaobo Xia, Rui Shao, Xiu Su, Shuo Yang
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+*Harbin Institute of Technology, Shenzhen; Meituan Academy of Robotics; Shanghai Jiaotong University; National University of Singapore; Central South University*
+
+[**Project Page**](https://jianyi2004.github.io/infuse-vla-backdoor/)
+- Research on backdoor attacks and security vulnerabilities in vision-language-action models for embodied AI systems.
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Research Project</div><img src='images/TouchAnytining.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[TouchAnything: A Dataset and Framework for Bimanual Tactile Estimation from Egocentric Video](https://jianyi2004.github.io/TouchAnything-Website/)
+
+**Jianyi Zhou**, Ziteng Gao, Feiyang Hong, Zirui Liu, Guannan Zhang, Weisheng Dai, Ruichen Zhen, Chuqiao Lyu, Haotian Wu, Yinian Mao, Xushi Wang, Yuxiang Jiang, Shuo Yang
+
+*Harbin Institute of Technology, Shenzhen; Meituan Academy of Robotics*
+
+[**Project Page**](https://jianyi2004.github.io/TouchAnything-Website/)
+- The first large-scale multi-view tactile dataset for egocentric hand-object interaction with bimanual 3D hand pose annotations and dense continuous pressure maps.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/Conla.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[ConLA: Contrastive Latent Action Learning from Human Videos for Robotic Manipulation](https://arxiv.org/pdf/2602.00557)
+
+Weisheng Dai, Kai Lan, **Jianyi Zhou**, Bo Zhao, Xiu Su, Junwen Tong, Weili Guan, Shuo Yang
+
+*Harbin Institute of Technology, Shenzhen; ZTE Corporation; Shanghai Jiao Tong University; Central South University*
+
+[**Paper**](https://arxiv.org/pdf/2602.00557)
+- Contrastive latent action learning framework for robotic manipulation from human demonstration videos.
+</div>
+</div>
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.12* National Scholarship (国家奖学金)
+- *2025.05* Mathematical Contest in Modeling (MCM/ICM) - Nominated for Outstanding Winner (Top 1.4% globally), Team Leader
+- *2025.08* National College Student Operating System Competition - First Prize (全国大学生操作系统大赛一等奖) 
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2022.09 - 2026.06 (Expected)*, B.Eng. in Computer Science and Technology, Harbin Institute of Technology, Shenzhen 
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+# 💻 Research Experience
+- Working on vision-language models and embodied AI security
+- Developing tactile sensing technologies for robotic manipulation
+- Exploring trustworthy AI and model robustness
