@@ -32,7 +32,7 @@ My research focuses on developing intelligent systems that can perceive, underst
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Research Project</div><img src='images/INFUSE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[INFUSE: Backdoor Attacks in Vision-Language-Action Models](https://jianyi2004.github.io/infuse-vla-backdoor/)
+[Inject Once Survive Later: Backdooring Vision-Language-Action Models to Persist Through Downstream Fine-tuning](https://jianyi2004.github.io/infuse-vla-backdoor/)
 
 **Jianyi Zhou**, Yujie Wei, Ruichen Zhen, Bo Zhao, Xiaobo Xia, Rui Shao, Xiu Su, Shuo Yang
 
