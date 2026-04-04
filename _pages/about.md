@@ -80,6 +80,6 @@ Weisheng Dai, Kai Lan, **Jianyi Zhou**, Bo Zhao, Xiu Su, Junwen Tong, Weili Guan
 - *2022.09 - 2026.06 (Expected)*, B.Eng. in Computer Science and Technology, Harbin Institute of Technology, Shenzhen 
 
 # 💻 Research Experience
-- Working on vision-language models and embodied AI security
 - Developing tactile sensing technologies for robotic manipulation
+- Working on vision-language models and embodied AI security
 - Exploring trustworthy AI and model robustness
