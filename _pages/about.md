@@ -28,6 +28,19 @@ My research focuses on developing intelligent systems that can perceive, underst
 - *2025.05*: &nbsp;🎉 Nominated for Outstanding Winner (Top 1.4% globally) in MCM/ICM as Team Leader 
 
 # 📝 Publications 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Research Project</div><img src='images/TouchAnytining.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[TouchAnything: A Dataset and Framework for Bimanual Tactile Estimation from Egocentric Video](https://jianyi2004.github.io/TouchAnything-Website/)
+
+**Jianyi Zhou**, Ziteng Gao, Feiyang Hong, Zirui Liu, Guannan Zhang, Weisheng Dai, Ruichen Zhen, Chuqiao Lyu, Haotian Wu, Yinian Mao, Xushi Wang, Yuxiang Jiang, Shuo Yang
+
+*Harbin Institute of Technology, Shenzhen; Meituan Academy of Robotics*
+
+[**Project Page**](https://jianyi2004.github.io/TouchAnything-Website/)
+- The first large-scale multi-view tactile dataset for egocentric hand-object interaction with bimanual 3D hand pose annotations and dense continuous pressure maps.
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Research Project</div><img src='images/INFUSE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -43,19 +56,6 @@ My research focuses on developing intelligent systems that can perceive, underst
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Research Project</div><img src='images/TouchAnytining.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[TouchAnything: A Dataset and Framework for Bimanual Tactile Estimation from Egocentric Video](https://jianyi2004.github.io/TouchAnything-Website/)
-
-**Jianyi Zhou**, Ziteng Gao, Feiyang Hong, Zirui Liu, Guannan Zhang, Weisheng Dai, Ruichen Zhen, Chuqiao Lyu, Haotian Wu, Yinian Mao, Xushi Wang, Yuxiang Jiang, Shuo Yang
-
-*Harbin Institute of Technology, Shenzhen; Meituan Academy of Robotics*
-
-[**Project Page**](https://jianyi2004.github.io/TouchAnything-Website/)
-- The first large-scale multi-view tactile dataset for egocentric hand-object interaction with bimanual 3D hand pose annotations and dense continuous pressure maps.
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/Conla.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
