@@ -42,7 +42,7 @@ My research focuses on developing intelligent systems that can perceive, underst
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Research Project</div><img src='images/INFUSE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/INFUSE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Inject Once Survive Later: Backdooring Vision-Language-Action Models to Persist Through Downstream Fine-tuning](https://arxiv.org/pdf/2602.00500)
