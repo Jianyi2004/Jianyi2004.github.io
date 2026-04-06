@@ -45,13 +45,13 @@ My research focuses on developing intelligent systems that can perceive, underst
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Research Project</div><img src='images/INFUSE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Inject Once Survive Later: Backdooring Vision-Language-Action Models to Persist Through Downstream Fine-tuning](https://jianyi2004.github.io/infuse-vla-backdoor/)
+[Inject Once Survive Later: Backdooring Vision-Language-Action Models to Persist Through Downstream Fine-tuning](https://arxiv.org/pdf/2602.00500)
 
 **Jianyi Zhou**, Yujie Wei, Ruichen Zhen, Bo Zhao, Xiaobo Xia, Rui Shao, Xiu Su, Shuo Yang
 
 *Harbin Institute of Technology, Shenzhen; Meituan Academy of Robotics; Shanghai Jiaotong University; National University of Singapore; Central South University*
 
-[**Project Page**](https://jianyi2004.github.io/infuse-vla-backdoor/)
+[**Paper**](https://arxiv.org/pdf/2602.00500)
 - Research on backdoor attacks and security vulnerabilities in vision-language-action models for embodied AI systems.
 </div>
 </div>
