@@ -28,6 +28,20 @@ My research focuses on developing intelligent systems that can perceive, underst
 - *2025.05*: &nbsp;🎉 Nominated for Outstanding Winner (Top 1.4% globally) in MCM/ICM as Team Leader 
 
 # 📝 Publications 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/TouchWorld.png' alt="TouchWorld predictive and reactive tactile manipulation framework" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[TouchWorld: A Predictive and Reactive Tactile Foundation Model for Dexterous Manipulation](https://arxiv.org/pdf/2607.07287)
+
+**Jianyi Zhou**<sup>\*</sup>, Feiyang Hong<sup>\*</sup>, Yunhao Li<sup>\*</sup>, Yicheng Zhao, Yongjue Cen, Zirui Liu, Jiakang Huang, Zirui Chen, Ruiyang Zhang, Weizhuo Zhu, Xuhua Song, Shuo Yang<sup>†</sup>
+
+*Harbin Institute of Technology, Shenzhen; PHANES AI* &nbsp; (<sup>\*</sup> Equal contribution; <sup>†</sup> Corresponding author)
+
+[**Project Page**](https://phanes-lab.github.io/TouchWorld-website/) / [**Paper**](https://arxiv.org/pdf/2607.07287)
+- A predictive-and-reactive tactile foundation model that combines contact-aware tactile subgoal prediction with high-frequency residual refinement for robust dexterous manipulation.
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Research Project</div><img src='images/TouchAnytining.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
