@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am Jianyi Zhou (周健毅), a master's student at Harbin Institute of Technology, Shenzhen.
+I am Jianyi Zhou (周健毅), a Ph.D. student at Harbin Institute of Technology, Shenzhen.
 
 My research interests include embodied intelligence, tactile dexterous manipulation, embodied AI security, and agent systems and code intelligence for complex software engineering tasks.
 
@@ -93,7 +93,7 @@ Weisheng Dai, Kai Lan, **Jianyi Zhou**, Bo Zhao, Xiu Su, Junwen Tong, Weili Guan
 - *2025.08* National College Student Operating System Competition - First Prize (全国大学生操作系统大赛一等奖) 
 
 # 📖 Education
-- *2026.09 - 2029.06 (Expected)*, Master's student at Harbin Institute of Technology, Shenzhen, advised by Prof. [Shuo Yang](https://homepage.hit.edu.cn/yangshuohit?lang=zh)
+- *2026.09 - 2029.06 (Expected)*, Ph.D. student at Harbin Institute of Technology, Shenzhen, advised by Prof. [Shuo Yang](https://homepage.hit.edu.cn/yangshuohit?lang=zh)
 - *2022.09 - 2026.06*, B.Eng. in Computer Science and Technology, Harbin Institute of Technology, Shenzhen
 
 # 💻 Research Experience
