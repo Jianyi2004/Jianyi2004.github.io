@@ -24,6 +24,7 @@ My research interests lie in embodied intelligence, with a particular focus on t
 
 # 🔥 News
 - *2026.07*: &nbsp;Our paper [TouchWorld](https://arxiv.org/abs/2607.07287) was released on arXiv!
+- *2026.05*: &nbsp;Our project [TouchAnything](https://jianyi2004.github.io/TouchAnything-Website/) was released!
 - *2025.12*: &nbsp;🎉🎉 Awarded National Scholarship!
 - *2025.08*: &nbsp;🏆 Won First Prize in National College Student Operating System Competition
 - *2025.05*: &nbsp;🎉 Nominated for Outstanding Winner (Top 1.4% globally) in MCM/ICM as Team Leader 
