@@ -19,7 +19,7 @@ redirect_from:
 
 I am Jianyi Zhou (周健毅), a master's student at Harbin Institute of Technology, Shenzhen.
 
-My research interests lie in embodied intelligence, with a particular focus on tactile dexterous manipulation.
+My research interests include embodied intelligence, tactile dexterous manipulation, embodied AI security, and agent systems and code intelligence for complex software engineering tasks.
 
 
 # 🔥 News
