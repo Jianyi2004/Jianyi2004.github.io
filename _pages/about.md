@@ -17,12 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am Jianyi Zhou (周健毅), an undergraduate student at Harbin Institute of Technology, Shenzhen. I am passionate about Computer Vision and Machine Learning, with particular interests in embodied AI and world models.
+I am Jianyi Zhou (周健毅), a master's student at Harbin Institute of Technology, Shenzhen.
 
-My research focuses on developing intelligent systems that can perceive, understand, and interact with the physical world. I have worked on projects involving vision-language action models, tactile sensing technologies, and world model learning for robotic manipulation.
+My research interests lie in embodied intelligence, with a particular focus on tactile dexterous manipulation.
 
 
 # 🔥 News
+- *2026.07*: &nbsp;Our paper [TouchWorld](https://arxiv.org/abs/2607.07287) was released on arXiv!
 - *2025.12*: &nbsp;🎉🎉 Awarded National Scholarship!
 - *2025.08*: &nbsp;🏆 Won First Prize in National College Student Operating System Competition
 - *2025.05*: &nbsp;🎉 Nominated for Outstanding Winner (Top 1.4% globally) in MCM/ICM as Team Leader 
