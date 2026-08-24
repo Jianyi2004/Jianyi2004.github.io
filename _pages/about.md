@@ -90,8 +90,9 @@ Weisheng Dai, Kai Lan, **Jianyi Zhou**, Bo Zhao, Xiu Su, Junwen Tong, Weili Guan
 - *2025.05* Mathematical Contest in Modeling (MCM/ICM) - Nominated for Outstanding Winner (Top 1.4% globally), Team Leader
 - *2025.08* National College Student Operating System Competition - First Prize (全国大学生操作系统大赛一等奖) 
 
-# 📖 Educations
-- *2022.09 - 2026.06 (Expected)*, B.Eng. in Computer Science and Technology, Harbin Institute of Technology, Shenzhen 
+# 📖 Education
+- *2026.09 - 2029.06 (Expected)*, Master's student at Harbin Institute of Technology, Shenzhen, advised by Prof. [Shuo Yang](https://homepage.hit.edu.cn/yangshuohit?lang=zh)
+- *2022.09 - 2026.06*, B.Eng. in Computer Science and Technology, Harbin Institute of Technology, Shenzhen
 
 # 💻 Research Experience
 - Developing tactile sensing technologies for robotic manipulation
