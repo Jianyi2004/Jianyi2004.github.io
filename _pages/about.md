@@ -63,7 +63,7 @@ My research interests include embodied intelligence, tactile dexterous manipulat
 
 [KFC-Agent: Kernel Fault Corrector-Agent for Automated Linux Kernel Crash Repair](https://github.com/oscomp/first-prize-osf2025-LLM-based-kdump-analysis/tree/main)
 
-**Jianyi Zhou**, Qin Yuhuai, Yue Liang
+Qin Yuhuai, **Jianyi Zhou**, Yue Liang
 
 *Harbin Institute of Technology, Shenzhen*
 
