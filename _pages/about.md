@@ -14,7 +14,7 @@ I am Jianyi Zhou (周健毅), a Ph.D. student at Harbin Institute of Technology,
 
 My research interests include embodied intelligence, tactile dexterous manipulation, embodied AI security, and agent systems and code intelligence for complex software engineering tasks.
 
-[Google Scholar]({{ site.author.googlescholar }}): <span id="total_cit" aria-live="polite">--</span> citations.
+[Google Scholar]({{ site.author.googlescholar }})
 
 
 # 🔥 News
