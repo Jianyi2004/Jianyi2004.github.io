@@ -1,19 +1,35 @@
 <script>
-    $(document).ready(function () {
-        {% if site.google_scholar_stats_use_cdn %}
-        var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
-        {% else %}
-        var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
-        {% endif %}
-        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-            var totalCitation = data['citedby']
-            document.getElementById('total_cit').innerHTML = totalCitation;
-            var citationEles = document.getElementsByClassName('show_paper_citations')
-            Array.prototype.forEach.call(citationEles, element => {
-                var paperId = element.getAttribute('data')
-                var numCitations = data['publications'][paperId]['num_citations']
-                element.innerHTML = '| Citations: ' + numCitations;
-            });
+  document.addEventListener('DOMContentLoaded', function () {
+    {% if site.google_scholar_stats_use_cdn %}
+    var gsDataUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@google-scholar-stats/gs_data.json';
+    {% else %}
+    var gsDataUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/google-scholar-stats/gs_data.json';
+    {% endif %}
+
+    fetch(gsDataUrl + '?v=' + Date.now(), { cache: 'no-store' })
+      .then(function (response) {
+        if (!response.ok) {
+          throw new Error('Citation data returned HTTP ' + response.status);
+        }
+        return response.json();
+      })
+      .then(function (data) {
+        var totalCitation = document.getElementById('total_cit');
+        if (totalCitation && Number.isFinite(Number(data.citedby))) {
+          totalCitation.textContent = Number(data.citedby).toLocaleString();
+        }
+
+        var publications = data.publications || {};
+        document.querySelectorAll('.show_paper_citations').forEach(function (element) {
+          var paperId = element.dataset.paperId || element.getAttribute('data');
+          var publication = publications[paperId];
+          if (publication && Number.isFinite(Number(publication.num_citations))) {
+            element.textContent = '| Citations: ' + Number(publication.num_citations).toLocaleString();
+          }
         });
-    })
+      })
+      .catch(function (error) {
+        console.warn('Google Scholar citation data is temporarily unavailable:', error);
+      });
+  });
 </script>

@@ -1,34 +1,59 @@
-from scholarly import scholarly
-import jsonpickle
 import json
-from datetime import datetime
 import os
+from datetime import datetime, timezone
+from pathlib import Path
 from urllib.parse import parse_qs, urlparse
+
+from scholarly import scholarly
+
 
 def normalize_scholar_id(value: str) -> str:
     value = value.strip()
-    if value.startswith('http://') or value.startswith('https://'):
-        query = parse_qs(urlparse(value).query)
-        value = query.get('user', [''])[0]
+    if value.startswith(("http://", "https://")):
+        value = parse_qs(urlparse(value).query).get("user", [""])[0]
     if not value:
-        raise ValueError('GOOGLE_SCHOLAR_ID must be a Google Scholar user id or profile URL')
+        raise ValueError(
+            "GOOGLE_SCHOLAR_ID must be a Google Scholar user ID or profile URL"
+        )
     return value
 
-google_scholar_id = normalize_scholar_id(os.environ['GOOGLE_SCHOLAR_ID'])
-author: dict = scholarly.search_author_id(google_scholar_id)
-scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
-name = author['name']
-author['updated'] = str(datetime.now())
-author['publications'] = {v['author_pub_id']:v for v in author['publications']}
-print(json.dumps(author, indent=2))
-os.makedirs('results', exist_ok=True)
-with open(f'results/gs_data.json', 'w') as outfile:
-    json.dump(author, outfile, ensure_ascii=False)
 
-shieldio_data = {
-  "schemaVersion": 1,
-  "label": "citations",
-  "message": f"{author['citedby']}",
-}
-with open(f'results/gs_data_shieldsio.json', 'w') as outfile:
-    json.dump(shieldio_data, outfile, ensure_ascii=False)
+def main() -> None:
+    scholar_id = normalize_scholar_id(os.environ["GOOGLE_SCHOLAR_ID"])
+    author = scholarly.search_author_id(scholar_id)
+    scholarly.fill(
+        author, sections=["basics", "indices", "counts", "publications"]
+    )
+
+    cited_by = author.get("citedby")
+    if not isinstance(cited_by, int):
+        raise RuntimeError("Google Scholar response did not contain a citation count")
+
+    publications = author.get("publications", [])
+    author["publications"] = {
+        publication["author_pub_id"]: publication
+        for publication in publications
+        if publication.get("author_pub_id")
+    }
+    author["updated"] = datetime.now(timezone.utc).isoformat()
+
+    results_dir = Path(__file__).resolve().parent / "results"
+    results_dir.mkdir(exist_ok=True)
+    with (results_dir / "gs_data.json").open("w", encoding="utf-8") as output:
+        json.dump(author, output, ensure_ascii=False)
+
+    badge_data = {
+        "schemaVersion": 1,
+        "label": "citations",
+        "message": str(cited_by),
+    }
+    with (results_dir / "gs_data_shieldsio.json").open(
+        "w", encoding="utf-8"
+    ) as output:
+        json.dump(badge_data, output, ensure_ascii=False)
+
+    print(f"Fetched {cited_by} citations and {len(author['publications'])} publications")
+
+
+if __name__ == "__main__":
+    main()
