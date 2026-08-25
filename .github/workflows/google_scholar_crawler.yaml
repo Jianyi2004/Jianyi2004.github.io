@@ -2,6 +2,12 @@ name: Update Google Scholar citations
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/google_scholar_crawler.yaml
+      - google_scholar_crawler/**
   schedule:
     # 16:05 Asia/Shanghai every day (GitHub Actions cron uses UTC).
     - cron: "5 8 * * *"
