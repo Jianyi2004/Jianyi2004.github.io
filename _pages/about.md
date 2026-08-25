@@ -58,6 +58,22 @@ My research interests include embodied intelligence, tactile dexterous manipulat
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Research Project · 2025.08</div><img src='images/kfc-agent.png' alt="KFC-Agent multi-turn Linux kernel crash repair agent" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[KFC-Agent: Kernel Fault Corrector-Agent for Automated Linux Kernel Crash Repair](https://github.com/oscomp/first-prize-osf2025-LLM-based-kdump-analysis/tree/main)
+
+**Jianyi Zhou**, Qin Yuhuai, Yue Liang
+
+*Harbin Institute of Technology, Shenzhen*
+
+[**Code Repository**](https://github.com/oscomp/first-prize-osf2025-LLM-based-kdump-analysis/tree/main)
+- A multi-turn agent that explores crash reports, kernel source code, and execution feedback through an interactive Docker/SWE-ReX environment instead of generating a patch from a single long context.
+- Combines extensible tools with trace-based call-graph retrieval, a Planner built from historical crash reports and developer discussions, and a Memory module for reusable debugging experience.
+- On kbench with DeepSeek-V3 and four patches, KFC-Agent reaches 60.22% execution success, compared with 6.45% for kGym; its per-instance cost is $0.28.
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/INFUSE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
